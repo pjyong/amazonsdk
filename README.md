@@ -6,3 +6,6 @@ The repo shows you how to use Amazon service to send email and calculate bounces
 App server is using CURL to visit above Amazon API server like this: XXX.com/command.php      [POST] command=Mail/sendMail 
 <br/>
 The Amazon server can run the command directly like this: Mail/updateStat
+
+<br/>
+Notice: you need to update this file Api/Server.php first.
